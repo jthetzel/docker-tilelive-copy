@@ -1,0 +1,8 @@
+version: '2'
+services:
+  tessera:
+    build: ./
+    command: copy -z 1 -Z 2 -r tilelive-mapnik "mapnik:///configs/lossyear.xml" "file://data/lossyear_tiles"
+    volumes:
+       - ./configs:/configs
+      - /Volumes/sdcard/Documents/MapHubs/GLAD:/data

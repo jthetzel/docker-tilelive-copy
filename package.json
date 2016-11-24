@@ -1,0 +1,12 @@
+{
+  "name": "docker-tilelive-copy",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "mbtiles": "^0.9.0",
+    "tilelive-file": "^0.0.3",
+    "tilelive-mapnik": "^0.6.18",
+    "tilelive-s3": "^6.4.3",
+    "tl": "^0.9.0"
+  }
+}
